@@ -1,0 +1,39 @@
+.glowing-cursor {
+  position: fixed;
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%;
+  background-color: #afebd9; 
+  mix-blend-mode: screen;
+  pointer-events: none; 
+  z-index: 9999; 
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease; 
+  box-shadow: 0 0 10px 5px #8dc0c9; 
+}
+
+.glowing-cursor .dot {
+  position: fixed;
+  width: 1px; /* Adjust size of the dot */
+  height: 1px; /* Adjust size of the dot */
+  border-radius: 50%;
+  background-color: #07a195; /* White color for the dot */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.glowing-cursor.glow {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+}
+
+.glowing-cursor.glow .dot {
+  width: 10px; /* Adjust size of the dot when glowing */
+  height: 10px; /* Adjust size of the dot when glowing */
+  box-shadow: 0 0 10px 10px #ccc7c7; /* Adjust glow effect when glowing */
+}
+
+body {
+  cursor: none;
+}

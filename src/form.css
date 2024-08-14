@@ -1,0 +1,101 @@
+#back{
+  background-color: #485e74 ;
+}
+
+.user-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #02fff2;
+    border-radius: 5px;
+    background-color: #538d87;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group.input-right input {
+    width: calc(100% - 25px); 
+    
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .form-row .form-group {
+    width: calc(50% - 10px);
+  }
+  
+  .form-group.label-right {
+    text-align: right;
+    padding-top: 10px;
+  }
+  
+  .question-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .question-table th,
+  .question-table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .question-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .question-table td {
+    background-color: #fff;
+    cursor: auto;
+  }
+
+  #number,#date{
+    width: calc(37% - 25px);
+  }
+
+  .title{
+    text-align: center;
+    text-justify: auto;
+    font-size: 300%;
+  }
+
+
+  .submit-button-container {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .submit-button-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff; 
+    background-color: #007bff; 
+    border: none; 
+    cursor: pointer; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+  }
+  
+  .submit-button-container button:hover {
+    background-color: #00b318; 
+  }
+
